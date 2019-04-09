@@ -5,7 +5,14 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     background-color: #173F5F;
+    
 }
+{}
+.outline{
+    color: #666666;
+
+}
+
 #Profilephoto{
     width: 500px;
     height:500px
