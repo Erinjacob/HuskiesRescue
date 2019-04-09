@@ -1,0 +1,14 @@
+.redText{
+    color:red;
+    font-weight: 700;
+    font-size: 200px;
+}
+#Profilephoto{
+    width: 500px;
+    height:500px
+}
+.box {
+    widows: 100%;
+    height: 200px;
+    background: color 173F5F;
+}
