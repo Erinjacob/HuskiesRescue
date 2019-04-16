@@ -22,3 +22,12 @@ nav {
     height: 200px;
     background: color 173F5F;
 }
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #163f5e;
+    border-radius: .3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration-color: #ffffff;
+}
+
