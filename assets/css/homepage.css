@@ -9,14 +9,12 @@
     font-style: italic;
     font-variant: normal;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
     line-height: 400%;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    display: block;
-    max-width: 100%;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
 }
 }
 
@@ -25,19 +23,33 @@
     text-align: left;
     list-style-position: inside;
     display: inline;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
     float: left;
 }
 }
 body{
 	background-color: #333333;
-}.mynavbar {
+}.mynavebar {
+    color: #20639A;
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    color: #20639B;
-    font-style: normal;
     font-weight: bolder;
-    text-align: center;
-    text-indent: 0px;
+}
+.navbar.navbar-expand-sm.mynavebar {
+}
+.mynavbartogler {
+}
+.my-cont2 {
+    color: #1F639B;
+    text-shadow: 0px 0px #E6E6E6;
+    background-color: #E6E6E6;
+    padding-bottom: 180px;
+    font-weight: normal;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: large;
+}
+.specialcontaner {
+    background-color: #20639B;
 }
