@@ -1,3 +1,43 @@
+@media screen and (orientation:landscape){
+.my-cont {
+    background-color: #20639B;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    border-top-style: none;
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    line-height: 400%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    display: block;
+    max-width: 100%;
+}
+}
+
+@media screen{
+.logo {
+    text-align: left;
+    list-style-position: inside;
+    display: inline;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    float: left;
+}
+}
 body{
 	background-color: #333333;
+}.mynavbar {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #20639B;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    text-indent: 0px;
 }
