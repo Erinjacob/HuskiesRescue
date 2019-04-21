@@ -1,8 +1,34 @@
-.redText{
-    color: #ffffff;
-    font-weight: 40;
-    font-size: 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    background-color: #173F5F;  
+#pagehead{
+	background-color: #1375F5;
+    color:#FFFFFF;
+	Height:90px;
+}
+Body {
+	margin:0;
+}
+ul{
+	margin:0;
+}
+
+
+#menu ul {
+	background-color: #FFFFFF;
+	height: 50px;
+	float:center;
+	}
+#menu ul li{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+    line-height: 50px;
+	color:#333333;
+	display: inline;
+	margin: 0px 20px; 
+}
+#menu ul li a{
+	color:#333333;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color:#1375F5
 }
