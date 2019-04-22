@@ -67,3 +67,8 @@ body{
 .bodyimage {
     margin-left:25%;
 }
+.dropshadow {
+    text-shadow: 5px 5px #232323;
+    -webkit-box-shadow: 4px 3px 15px #454545;
+    box-shadow: 4px 3px 15px #454545;
+}
