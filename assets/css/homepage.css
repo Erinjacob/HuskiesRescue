@@ -58,4 +58,8 @@ body{
 }
 .side-col {
     background-color: #E6E6E6;
+    visibility: inherit;
+}
+.profileimage {
+    text-shadow: 7px 7px #545454;
 }
