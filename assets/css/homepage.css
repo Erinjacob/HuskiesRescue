@@ -54,7 +54,7 @@
   }
 /* } */
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width : 405px ){
     .header a {
       float: none;
       display: block;
@@ -71,10 +71,12 @@ body {
   background-color: #333333;
 }
 
-.mynavebar {
-  color: #20639A;
+.navbar10 {
+    background-color: #E6E6E6;
+  color
   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-  font-weight: bolder;
+    font-weight: bolder;
+    color: #20639B;
 }
 
 .navbar.navbar-expand-sm.mynavebar {}
@@ -100,12 +102,15 @@ body {
 }
 
 .side-col {
-  background-color: #E6E6E6;
-  visibility: inherit;
+    background-color: #E6E6E6;
+    visibility: inherit;
+    margin-top: -4px;
 }
 
 .profileimage {
-  text-shadow: 7px 7px #545454;
+    text-shadow: 7px 7px #545454;
+    margin-top: 43%;
+    margin-left: 15%;
 }
 
 .bodyimage {
@@ -126,4 +131,15 @@ body {
   font-size: xx-large;
   text-decoration: none;
   padding-top: 4%;
+}
+.mysideimge {
+    margin-top: 47%;
+    margin-left: 11%;
+}
+.myimage {
+    margin-top: 53%;
+    margin-left: 16%;
+}
+.leasheddog {
+    margin-top: -31%;
 }
