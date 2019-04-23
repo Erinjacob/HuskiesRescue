@@ -1,5 +1,5 @@
-@media screen and (orientation:landscape){
-.my-cont {
+/* @media screen and (orientation:landscape) { */
+  .my-cont {
     background-color: #20639B;
     -webkit-box-shadow: 0px 0px;
     box-shadow: 0px 0px;
@@ -15,60 +15,115 @@
     -webkit-box-sizing: inherit;
     -moz-box-sizing: inherit;
     box-sizing: inherit;
-}
+  }
+
+  .header {
+    overflow: hidden;
+    background-color: #20639b;
+    padding: 20px 10px;
+  }
+
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+  .header-right {
+    float: right;
+  }
+/* } */
+
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .header-right {
+      float: none;
+    }
+  }
+
+
+body {
+  background-color: #333333;
 }
 
-@media screen{
-.logo {
-    text-align: left;
-    list-style-position: inside;
-    display: inline;
-    -webkit-box-sizing: inherit;
-    -moz-box-sizing: inherit;
-    box-sizing: inherit;
-    float: left;
+.mynavebar {
+  color: #20639A;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
 }
-}
-body{
-	background-color: #333333;
-}.mynavebar {
-    color: #20639A;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    font-weight: bolder;
-}
-.navbar.navbar-expand-sm.mynavebar {
-}
-.mynavbartogler {
-}
+
+.navbar.navbar-expand-sm.mynavebar {}
+
+.mynavbartogler {}
+
 .my-cont2 {
-    color: #1F639B;
-    text-shadow: 0px 0px #E6E6E6;
-    background-color: #E6E6E6;
-    padding-bottom: 180px;
-    font-weight: normal;
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    font-style: normal;
-    font-size: large;
+  color: #1F639B;
+  text-shadow: 0px 0px #E6E6E6;
+  background-color: #E6E6E6;
+  padding-bottom: 180px;
+  font-weight: normal;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: large;
 }
 
 .Title {
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    font-size: xx-large;
-    font-weight: normal;
-    color: #20639A;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-size: xx-large;
+  font-weight: normal;
+  color: #20639A;
 }
+
 .side-col {
-    background-color: #E6E6E6;
-    visibility: inherit;
+  background-color: #E6E6E6;
+  visibility: inherit;
 }
+
 .profileimage {
-    text-shadow: 7px 7px #545454;
+  text-shadow: 7px 7px #545454;
 }
+
 .bodyimage {
-    margin-left:25%;
+  margin-left: 25%;
 }
+
 .dropshadow {
-    text-shadow: 5px 5px #232323;
-    -webkit-box-shadow: 4px 3px 15px #454545;
-    box-shadow: 4px 3px 15px #454545;
+  text-shadow: 5px 5px #232323;
+  -webkit-box-shadow: 4px 3px 15px #454545;
+  box-shadow: 4px 3px 15px #454545;
+}
+
+.customtext {
+  color: #FFFFFF;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-decoration: none;
+  padding-top: 4%;
 }
